@@ -2,22 +2,22 @@ import sparkLogo from "@/assets/spark-logo.png";
 
 const Footer = () => {
   return (
-    <footer className="border-t bg-muted/50">
-      <div className="container py-12">
-        <div className="grid lg:grid-cols-4 gap-8">
-          <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <img src={sparkLogo} alt="Spark" className="h-8 w-8" />
-              <span className="text-xl font-bold">Spark</span>
+    <footer className="border-t bg-white">
+      <div className="container py-16">
+        <div className="grid lg:grid-cols-4 gap-12">
+          <div className="space-y-6">
+            <div className="flex items-center space-x-3">
+              <img src={sparkLogo} alt="Spark" className="h-10 w-10" />
+              <span className="text-2xl font-bold">Spark</span>
             </div>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-base text-muted-foreground leading-relaxed max-w-sm">
               The modern platform to take your brokerage to the next level.
             </p>
           </div>
           
-          <div className="space-y-4">
-            <h4 className="font-semibold">Platform</h4>
-            <div className="space-y-2 text-sm">
+          <div className="space-y-6">
+            <h4 className="font-semibold text-lg">Platform</h4>
+            <div className="space-y-3 text-base">
               <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
                 Features
               </a>
@@ -30,9 +30,9 @@ const Footer = () => {
             </div>
           </div>
           
-          <div className="space-y-4">
-            <h4 className="font-semibold">Company</h4>
-            <div className="space-y-2 text-sm">
+          <div className="space-y-6">
+            <h4 className="font-semibold text-lg">Company</h4>
+            <div className="space-y-3 text-base">
               <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
                 About
               </a>
@@ -45,9 +45,9 @@ const Footer = () => {
             </div>
           </div>
           
-          <div className="space-y-4">
-            <h4 className="font-semibold">Resources</h4>
-            <div className="space-y-2 text-sm">
+          <div className="space-y-6">
+            <h4 className="font-semibold text-lg">Resources</h4>
+            <div className="space-y-3 text-base">
               <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
                 Blog
               </a>
@@ -61,7 +61,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
+        <div className="border-t mt-12 pt-8 text-center text-base text-muted-foreground">
           <p>&copy; 2024 Spark Advisors. All rights reserved.</p>
         </div>
       </div>

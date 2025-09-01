@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 const TestimonialsSection = () => {
   const testimonials = [
@@ -30,34 +31,36 @@ const TestimonialsSection = () => {
   ];
 
   return (
-    <section className="py-20">
+    <section className="py-24 bg-background">
       <div className="container">
         <div className="grid lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className="p-6">
-              <CardContent className="space-y-6 p-0">
-                <div className="space-y-2">
-                  <h3 className="font-semibold text-lg">{testimonial.name}</h3>
-                  <p className="text-sm text-muted-foreground">{testimonial.company}</p>
+            <Card key={index} className="group relative overflow-hidden border-0 shadow-sm hover:shadow-xl transition-all duration-500">
+              <div className="absolute top-0 left-0 w-full h-48 bg-gradient-to-br from-gray-100 to-gray-200"></div>
+              <CardContent className="relative space-y-8 p-8 pt-56">
+                <div className="space-y-3">
+                  <h3 className="text-xl font-semibold">{testimonial.name}</h3>
+                  <p className="text-sm font-medium text-muted-foreground">{testimonial.company}</p>
                   <p className="text-sm text-muted-foreground">{testimonial.location}</p>
                 </div>
                 
-                <blockquote className="text-sm leading-relaxed">
+                <blockquote className="text-base leading-relaxed text-foreground">
                   "{testimonial.quote}"
                 </blockquote>
                 
-                <Button variant="outline" size="sm">
+                <Button variant="ghost" className="group-hover:text-primary transition-colors p-0 h-auto font-medium">
                   Read More
+                  <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
                 
-                <div className="grid grid-cols-2 gap-4 pt-4 border-t">
+                <div className="grid grid-cols-2 gap-6 pt-6 border-t border-border">
                   <div>
-                    <p className="text-2xl font-bold">{testimonial.agents}</p>
-                    <p className="text-xs text-muted-foreground">Contracted agents</p>
+                    <p className="text-3xl font-bold text-foreground">{testimonial.agents}</p>
+                    <p className="text-sm text-muted-foreground">Contracted agents</p>
                   </div>
                   <div>
-                    <p className="text-2xl font-bold text-primary">{testimonial.growth}</p>
-                    <p className="text-xs text-muted-foreground">Agent growth</p>
+                    <p className="text-3xl font-bold text-primary">{testimonial.growth}</p>
+                    <p className="text-sm text-muted-foreground">Agent growth</p>
                   </div>
                 </div>
               </CardContent>
