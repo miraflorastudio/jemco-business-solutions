@@ -34,7 +34,7 @@ const ReportingSection = () => {
             <div className="space-y-1">
               <div className="flex items-center gap-2">
                 <TrendingUp className="size-5 text-blue-600" />
-                <h3 className="text-xl font-semibold">Profit and Loss</h3>
+                <h3 className="text-xl font-semibold">Profit and Loss - Example</h3>
               </div>
               <p className="text-sm text-muted-foreground">Business dashboard</p>
             </div>
@@ -61,7 +61,7 @@ const ReportingSection = () => {
                   <div className="space-y-2">
                     <p className="text-sm text-muted-foreground">Revenue</p>
                     <div className="flex items-center gap-2">
-                      <span className="text-2xl font-bold">$125k</span>
+                      <span className="text-2xl font-bold">KSH 125k</span>
                       <div className="h-8 w-16 bg-blue-100 rounded flex items-end">
                         <div className="h-2 bg-blue-500 rounded w-full"></div>
                       </div>
@@ -72,7 +72,7 @@ const ReportingSection = () => {
                   <div className="space-y-2">
                     <p className="text-sm text-muted-foreground">Monthly expenses</p>
                     <div className="flex items-center gap-2">
-                      <span className="text-2xl font-bold">$45k</span>
+                      <span className="text-2xl font-bold">KSH 45k</span>
                       <div className="h-8 w-16 bg-purple-100 rounded flex items-end">
                         <div className="h-3 bg-purple-500 rounded w-full"></div>
                       </div>
@@ -92,8 +92,8 @@ const ReportingSection = () => {
                     <span className="text-sm">Services</span>
                   </div>
                   <div className="flex gap-4">
-                    <span className="text-sm font-medium">$122k</span>
-                    <span className="text-sm text-muted-foreground">$124k</span>
+                    <span className="text-sm font-medium">KSH 122k</span>
+                    <span className="text-sm text-muted-foreground">KSH 124k</span>
                   </div>
                 </div>
                 <div className="flex justify-between items-center py-2">
@@ -102,8 +102,8 @@ const ReportingSection = () => {
                     <span className="text-sm">Contractors</span>
                   </div>
                   <div className="flex gap-4">
-                    <span className="text-sm font-medium">$20k</span>
-                    <span className="text-sm text-muted-foreground">$20k</span>
+                    <span className="text-sm font-medium">KSH 20k</span>
+                    <span className="text-sm text-muted-foreground">KSH 20k</span>
                   </div>
                 </div>
               </div>
