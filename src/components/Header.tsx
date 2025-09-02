@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container flex h-20 items-center justify-between">
         <div className="flex items-center space-x-12">
           <div className="flex items-center space-x-3">
-            <img src={jemcoLogo} alt="JEMCO Business Solutions" className="h-10 w-auto" />
+            <img src={jemcoLogo} alt="JEMCO Business Solutions" className="h-12 w-auto" />
             <span className="text-2xl font-bold text-foreground">Business Solutions</span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">

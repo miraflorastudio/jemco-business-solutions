@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid lg:grid-cols-4 gap-12">
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
-              <img src={jemcoLogo} alt="JEMCO Business Solutions" className="h-10 w-auto" />
+              <img src={jemcoLogo} alt="JEMCO Business Solutions" className="h-12 w-auto" />
               <span className="text-2xl font-bold">Business Solutions</span>
             </div>
             <p className="text-base text-muted-foreground leading-relaxed max-w-sm">
