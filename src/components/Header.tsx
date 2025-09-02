@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
 import { Link } from "react-router-dom";
+import JemcoLogo from "./JemcoLogo";
 
 const Header = () => {
   return (
@@ -16,7 +17,7 @@ const Header = () => {
       <div className="container flex h-20 items-center justify-between">
         <div className="flex items-center space-x-12">
           <div className="flex items-center space-x-3">
-            <img src="/jemco-logo.png" alt="JEMCO Business Solutions" className="h-12 w-auto" />
+            <JemcoLogo />
             <span className="text-2xl font-bold text-foreground">Business Solutions</span>
           </div>
           <nav className="hidden md:flex items-center">
