@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import sparkLogo from "@/assets/spark-logo.png";
+import jemcoLogo from "@/assets/jemco-logo.png";
 
 const Header = () => {
   return (
@@ -7,8 +7,8 @@ const Header = () => {
       <div className="container flex h-20 items-center justify-between">
         <div className="flex items-center space-x-12">
           <div className="flex items-center space-x-3">
-            <img src={sparkLogo} alt="Spark" className="h-10 w-10" />
-            <span className="text-2xl font-bold text-foreground">Spark</span>
+            <img src={jemcoLogo} alt="JEMCO Business Solutions" className="h-10 w-auto" />
+            <span className="text-2xl font-bold text-foreground">Business Solutions</span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#platform" className="text-base font-medium text-foreground transition-colors hover:text-primary">

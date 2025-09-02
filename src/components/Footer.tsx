@@ -1,4 +1,4 @@
-import sparkLogo from "@/assets/spark-logo.png";
+import jemcoLogo from "@/assets/jemco-logo.png";
 
 const Footer = () => {
   return (
@@ -7,8 +7,8 @@ const Footer = () => {
         <div className="grid lg:grid-cols-4 gap-12">
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
-              <img src={sparkLogo} alt="Spark" className="h-10 w-10" />
-              <span className="text-2xl font-bold">Spark</span>
+              <img src={jemcoLogo} alt="JEMCO Business Solutions" className="h-10 w-auto" />
+              <span className="text-2xl font-bold">Business Solutions</span>
             </div>
             <p className="text-base text-muted-foreground leading-relaxed max-w-sm">
               The modern platform to take your brokerage to the next level.
@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t mt-12 pt-8 text-center text-base text-muted-foreground">
-          <p>&copy; 2024 Spark Advisors. All rights reserved.</p>
+          <p>&copy; 2024 JEMCO Business Solutions. All rights reserved.</p>
         </div>
       </div>
     </footer>
