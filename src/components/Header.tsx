@@ -75,13 +75,12 @@ const Header = () => {
             </NavigationMenu>
           </nav>
         </div>
-        <div className="flex items-center space-x-4">
-          <Button variant="ghost" className="text-base font-medium text-muted-foreground hover:text-foreground">
-            Log in
-          </Button>
-          <Button size="lg" className="text-base font-medium bg-secondary text-secondary-foreground hover:bg-secondary/90 rounded-sm px-6">
-            Get a Quote
-          </Button>
+        <div className="flex items-center">
+          <Link to="/contact">
+            <Button size="lg" className="text-base font-medium bg-secondary text-secondary-foreground hover:bg-secondary/90 rounded-sm px-6">
+              Get a Quote
+            </Button>
+          </Link>
         </div>
       </div>
     </header>
