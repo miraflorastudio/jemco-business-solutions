@@ -1,4 +1,4 @@
-import { Play, TrendingUp, DollarSign, Users, Building } from 'lucide-react';
+import { Download, TrendingUp, DollarSign, Users, Building } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 
 const ReportingSection = () => {
@@ -6,25 +6,23 @@ const ReportingSection = () => {
     <section className="py-16 bg-background">
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid lg:grid-cols-2 gap-8 items-center">
-          {/* Left Panel - Dark Green */}
-          <div className="bg-slate-700 p-12 rounded-lg text-white space-y-6">
+          {/* Left Panel - Orange */}
+          <div className="bg-orange-500 p-12 rounded-lg text-white space-y-6">
             <h2 className="text-4xl lg:text-5xl font-normal leading-tight">
               "How did we spend so much on contractors last quarter?"
             </h2>
-            <p className="text-lg text-slate-200 leading-relaxed">
-              Pull your historicals directly from QuickBooks/Xero, and drill down into 
-              the transactions behind each number without having to jump between 
-              browser tabs or chase your accountant.
+            <p className="text-lg text-orange-50 leading-relaxed">
+              Pull your historicals and see it all at one glance. Profit & Loss, Balance Sheet report generation, Accounts Receivables, Accounts Payables, Expenses Reports vs Budget, Preparation of Audit Schedules for auditors. Let us handle the numbers while you focus on your vision.
             </p>
             <div className="flex items-center gap-3 pt-4">
-              <div className="flex items-center gap-2 bg-black/20 rounded-full px-4 py-2">
-                <Play className="size-4" />
-                <span className="text-sm font-medium">Financial Reporting</span>
-                <span className="text-xs text-slate-300">• 2 min</span>
-              </div>
-            </div>
-            <div className="pt-6">
-              <p className="text-sm text-slate-300 font-medium">Get started with:</p>
+              <a 
+                href="/lovable-uploads/716ee464-7120-4408-934f-bae29fde4f16.png" 
+                download="JEMCO-Services-Brochure.png"
+                className="flex items-center gap-2 bg-black/20 rounded-full px-4 py-2 hover:bg-black/30 transition-colors"
+              >
+                <Download className="size-4" />
+                <span className="text-sm font-medium">Download Brochure</span>
+              </a>
             </div>
           </div>
 
