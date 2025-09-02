@@ -1,4 +1,4 @@
-import jemcoLogo from "@/assets/jemco-logo.png";
+import JemcoLogo from "./JemcoLogo";
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid lg:grid-cols-4 gap-12">
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
-              <img src={jemcoLogo} alt="JEMCO Business Solutions" className="h-12 w-auto" />
+              <JemcoLogo />
               <span className="text-2xl font-bold">Business Solutions</span>
             </div>
             <p className="text-base text-muted-foreground leading-relaxed max-w-sm">
