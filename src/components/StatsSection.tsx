@@ -44,7 +44,7 @@ const StatsSection = () => {
         </div>
 
         <div className="space-y-12">
-          <h3 className="text-xl font-medium text-center text-muted-foreground">Featured Carriers</h3>
+          <h3 className="text-xl font-medium text-center text-muted-foreground">Clients</h3>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center">
             {carriers.map((carrier, index) => (
               <div key={index} className="flex items-center justify-center h-20 p-4">

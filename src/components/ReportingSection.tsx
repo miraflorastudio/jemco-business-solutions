@@ -8,7 +8,7 @@ const ReportingSection = () => {
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           {/* Left Panel - Dark Green */}
           <div className="bg-slate-700 p-12 rounded-lg text-white space-y-6">
-            <h2 className="text-4xl font-bold leading-tight">
+            <h2 className="text-4xl lg:text-5xl font-normal leading-tight">
               "How did we spend so much on contractors last quarter?"
             </h2>
             <p className="text-lg text-slate-200 leading-relaxed">
