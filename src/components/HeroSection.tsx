@@ -10,18 +10,16 @@ const HeroSection = () => {
         <div className="space-y-12 pt-8">
           <div className="space-y-6">
             <p className="text-sm text-muted-foreground tracking-wide">
-              The modern platform to take your brokerage to the next level.
+              A partner in your business, dedicated to help you grow
             </p>
             <Button size="lg" className="rounded-sm px-8 py-3">
-              Book a Demo
+              Contact Us Now
             </Button>
           </div>
           
           <div className="space-y-8">
             <h1 className="text-4xl lg:text-6xl xl:text-7xl font-normal leading-tight tracking-tight">
-              <span className="block">Build the insurance</span>
-              <span className="block">business of your</span>
-              <span className="block">dreams</span>
+              The One Stop For All Your Business Needs
             </h1>
           </div>
         </div>
