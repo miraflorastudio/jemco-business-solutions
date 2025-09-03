@@ -17,11 +17,11 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    /* Spark brand colors */
-    --primary: 15 86% 55%; /* Spark's orange/red brand color */
+    /* JEMCO brand colors */
+    --primary: 261 60% 50%; /* JEMCO's blue brand color */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 222 84% 4.9%; /* Dark navy for secondary actions */
+    --secondary: 24 100% 50%; /* JEMCO's orange accent color */
     --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
