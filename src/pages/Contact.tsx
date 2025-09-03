@@ -87,18 +87,30 @@ const Contact = () => {
                 <CardContent className="space-y-4">
                   <div>
                     <h4 className="font-semibold text-foreground">Phone</h4>
-                    <p className="text-muted-foreground">(555) 123-4567</p>
+                    <p className="text-muted-foreground">+254-20-828898</p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground">Email</h4>
-                    <p className="text-muted-foreground">info@jemcobusiness.com</p>
+                    <div className="space-y-1">
+                      <p>
+                        <a href="mailto:jmokondo@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors">
+                          jmokondo@gmail.com
+                        </a>
+                      </p>
+                      <p>
+                        <a href="mailto:shabban@jemco-businessolutions.com" className="text-muted-foreground hover:text-foreground transition-colors">
+                          shabban@jemco-businessolutions.com
+                        </a>
+                      </p>
+                    </div>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground">Address</h4>
+                    <h4 className="font-semibold text-foreground">Visit Us at our Offices</h4>
                     <p className="text-muted-foreground">
-                      123 Business Way<br />
-                      Suite 100<br />
-                      Your City, ST 12345
+                      Vison Plaza, Off Mombasa Road,<br />
+                      2nd Floor, Unit 32<br />
+                      P.O Box 28352-00200<br />
+                      Nairobi, Kenya
                     </p>
                   </div>
                 </CardContent>
