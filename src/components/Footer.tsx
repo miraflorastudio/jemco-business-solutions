@@ -11,24 +11,10 @@ const Footer = () => {
               <span className="text-2xl font-bold">Business Solutions</span>
             </div>
             <p className="text-base text-muted-foreground leading-relaxed max-w-sm">
-              The modern platform to take your brokerage to the next level.
+              A partner in your business, dedicated to help you grow
             </p>
           </div>
           
-          <div className="space-y-6">
-            <h4 className="font-semibold text-lg">Platform</h4>
-            <div className="space-y-3 text-base">
-              <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
-                Features
-              </a>
-              <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
-                Pricing
-              </a>
-              <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
-                Security
-              </a>
-            </div>
-          </div>
           
           <div className="space-y-6">
             <h4 className="font-semibold text-lg">Company</h4>
@@ -62,7 +48,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t mt-12 pt-8 text-center text-base text-muted-foreground">
-          <p>&copy; 2024 JEMCO Business Solutions. All rights reserved.</p>
+          <p>&copy; 2025 JEMCO Business Solutions. All rights reserved.</p>
         </div>
       </div>
     </footer>
