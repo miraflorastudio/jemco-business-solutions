@@ -1,5 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 const About = () => {
   return (
@@ -13,9 +15,7 @@ const About = () => {
             <section>
               <h2 className="text-2xl font-semibold text-foreground mb-4">Our Story</h2>
               <p className="text-muted-foreground leading-relaxed">
-                JEMCO Business Solutions has been serving businesses with comprehensive accounting and financial services 
-                for over a decade. Founded with the mission to simplify financial management for businesses of all sizes, 
-                we've grown from a small local practice to a trusted partner for companies across various industries.
+                JEMCO Business Solutions Limited was registered in January 2005. The company brings innovative new services in Kenya to organizations in the form of Subcontracting and outsourcing non-core activities. We have been serving businesses with comprehensive accounting and financial services for over a decade. Founded with the mission to simplify financial management for businesses of all sizes, we've grown from a small local practice to a trusted partner for companies across various industries.
               </p>
             </section>
 
@@ -57,6 +57,22 @@ const About = () => {
                 </div>
               </div>
             </section>
+          </div>
+          
+          <div className="text-center mt-12">
+            <Card className="max-w-2xl mx-auto">
+              <CardHeader>
+                <CardTitle>Ready to Partner With Us?</CardTitle>
+                <CardDescription>
+                  Let's discuss how JEMCO Business Solutions can help streamline your financial operations and support your business growth.
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <Button size="lg">
+                  Get a Quote
+                </Button>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </main>
