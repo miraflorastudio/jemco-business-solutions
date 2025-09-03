@@ -16,10 +16,10 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80">
       <div className="container flex h-20 items-center justify-between">
         <div className="flex items-center space-x-12">
-          <div className="flex items-center space-x-3">
+          <Link to="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
             <JemcoLogo />
             <span className="text-2xl font-bold text-foreground">Business Solutions</span>
-          </div>
+          </Link>
           <nav className="hidden md:flex items-center">
             <NavigationMenu>
               <NavigationMenuList>

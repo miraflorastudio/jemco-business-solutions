@@ -1,16 +1,16 @@
 const StatsSection = () => {
   const stats = [
     {
-      number: "6,000+",
-      description: "Partnerships with brokers since 2021"
+      number: "Top Level Talent",
+      description: "Our team comprises skilled and talented personnel who can meet deadlines with minimal supervision."
     },
     {
-      number: "+90%", 
-      description: "Growth in enrollments per agent after partnering with Spark"
+      number: "Top Accounting Software", 
+      description: "Thanks to our use of the latest accounting software, we are able to provide our clients with speedy and effective service."
     },
     {
-      number: "+50%",
-      description: "Growth in contracted agents for agencies after partnering with Spark"
+      number: "Affordable Services",
+      description: "Our cost-effective and market-oriented services offer our satisfied clients excellent value for their money, allowing them to focus on expanding their businesses."
     }
   ];
 
@@ -31,14 +31,14 @@ const StatsSection = () => {
     <section className="py-24 bg-muted/20">
       <div className="container">
         <h2 className="text-4xl lg:text-5xl font-normal text-center mb-20 max-w-4xl mx-auto leading-tight">
-          The fastest-growing brokerage platform in the industry
+          JEMCO Business Solutions- A leading solutions provider to SME's in Kenya
         </h2>
         
         <div className="grid lg:grid-cols-3 gap-12 mb-24">
           {stats.map((stat, index) => (
             <div key={index} className="text-center space-y-4">
-              <p className="text-5xl lg:text-6xl font-bold text-primary">{stat.number}</p>
-              <p className="text-base text-muted-foreground max-w-xs mx-auto leading-relaxed">{stat.description}</p>
+              <h3 className="text-2xl lg:text-3xl font-bold text-primary">{stat.number}</h3>
+              <p className="text-base text-muted-foreground max-w-sm mx-auto leading-relaxed">{stat.description}</p>
             </div>
           ))}
         </div>
