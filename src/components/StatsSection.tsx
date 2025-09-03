@@ -17,16 +17,16 @@ const StatsSection = () => {
   ];
 
   const carriers = [
-    "Aetna",
-    "Scan Health Plan", 
-    "Humana",
-    "Molina Healthcare",
-    "Blue Cross Blue Shield",
-    "UnitedHealthcare",
-    "Cigna",
-    "Kaiser Permanente",
-    "Anthem",
-    "WellCare"
+    "MGH North Support Services Ltd",
+    "Haleon Kenya Ltd",
+    "Actuarial Society of Kenya",
+    "Game Ranching Limited",
+    "Biz Baz Events Ltd",
+    "Pharmasell Limited",
+    "HealthStore East Africa Ltd",
+    "Sustainable Healthcare Foundation",
+    "Mardee Services Limited",
+    "Zamara Fanaka Retirement Fund"
   ];
 
   return (
