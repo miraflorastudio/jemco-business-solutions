@@ -1,3 +1,5 @@
+import { InfiniteSlider } from "@/components/ui/infinite-slider";
+
 const StatsSection = () => {
   const stats = [
     {
@@ -45,15 +47,15 @@ const StatsSection = () => {
 
         <div className="space-y-12">
           <h3 className="text-xl font-medium text-center text-muted-foreground">Clients</h3>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center">
+          <InfiniteSlider gap={48} duration={30} className="py-8">
             {carriers.map((carrier, index) => (
-              <div key={index} className="flex items-center justify-center h-20 p-4">
-                <div className="text-base font-medium text-muted-foreground text-center opacity-60 hover:opacity-100 transition-opacity">
+              <div key={index} className="flex items-center justify-center min-w-[200px] h-20 px-6">
+                <div className="text-lg font-medium text-muted-foreground text-center opacity-70 hover:opacity-100 transition-opacity whitespace-nowrap">
                   {carrier}
                 </div>
               </div>
             ))}
-          </div>
+          </InfiniteSlider>
         </div>
       </div>
     </section>
