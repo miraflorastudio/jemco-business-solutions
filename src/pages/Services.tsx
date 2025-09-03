@@ -8,32 +8,32 @@ const Services = () => {
     {
       title: "Management & Annual Accounts",
       description: "Comprehensive financial reporting and annual account preparation to meet statutory requirements and provide valuable business insights.",
-      features: ["Annual financial statements", "Management reports", "Statutory compliance", "Financial analysis"],
+      features: ["Profit & Loss, Balance Sheet report generation", "Accounts Receivables", "Accounts Payables", "Expenses Reports vs Budget", "Preparation of Audit Schedules for auditors"],
     },
     {
       title: "Payroll Services",
       description: "Complete payroll management and processing solutions to ensure accurate and timely employee compensation.",
-      features: ["Monthly payroll processing", "Tax calculations", "Employee records", "Payroll reporting"],
+      features: ["Payslip generation", "Statutory returns and subsequent filing(PAYE, NHIF, NSSF)", "Monthly payroll Summary", "Journal Voucher creation for posting to General ledger"],
     },
     {
       title: "Tax Estimates & Returns",
       description: "Professional tax planning and return preparation to minimize tax liability and ensure compliance.",
-      features: ["Tax return preparation", "Tax planning strategies", "Quarterly estimates", "Tax compliance"],
+      features: ["Preparation of Tax Estimates", "File Tax(PAYE, VAT, Company Statutory, etc) returns with KRA using data provided by client"],
     },
     {
       title: "Bookkeeping",
       description: "Accurate record keeping and financial transaction management to maintain organized financial records.",
-      features: ["Daily transaction recording", "Bank reconciliation", "Financial statements", "Expense tracking"],
+      features: ["Financial Systems Implementation", "Financial Internal Control Review and Implementation", "IT Systems Review and Implementation", "Business Management - Best Practice"],
     },
     {
       title: "Track Income & Expenses",
       description: "Monitor and categorize your business financial flows for better financial control and decision-making.",
-      features: ["Income tracking", "Expense categorization", "Cash flow monitoring", "Financial reporting"],
+      features: ["Categorize Transactions", "Post Transactions to Business Ledgers", "Generate Ledger Reports", "Prepare P&L, Balance Sheet, Cash flow summaries"],
     },
     {
       title: "Systems Implementation & Review",
       description: "Optimize your accounting systems and processes to improve efficiency and accuracy.",
-      features: ["System setup", "Process optimization", "Training & support", "Ongoing review"],
+      features: ["Financial Systems Implementation", "Financial Internal Control Review and Implementation", "IT Systems Review and Implementation", "Business Management - Best Practice"],
     },
   ];
 
